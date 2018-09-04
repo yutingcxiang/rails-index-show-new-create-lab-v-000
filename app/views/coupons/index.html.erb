@@ -1,3 +1,6 @@
 <% @coupons.each do |coupon| %>
-  <div><%= coupon.store %></div>
+  <div>
+    <p><%= coupon.store %></p>
+    <p><%= coupon.coupon_code %></p>
+  </div>
 <% end %>
